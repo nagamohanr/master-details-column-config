@@ -46,7 +46,9 @@ export class CategoryDetailComponent implements OnInit {
     this.columnConfig = {
       1: [
         { field: "ProductID", title: "Product ID" },
-        { field: "ProductName", title: "Product Name" }
+        { field: "ProductName", title: "Product Name" },
+        { field: "QuantityPerUnit", title: "Quantity / Unit" },
+        { field: "Discount", title: "Discount" }
       ],
       2: [
         { field: "ProductID", title: "Product ID" },

@@ -15,12 +15,13 @@ import { ProductsService } from "./northwind.service";
     <kendo-grid
       [data]="dataSource"
       [loading]="view.loading"
-      [pageSize]="5"
+      [pageSize]="10"
       [skip]="skip"
       [pageable]="true"
       [scrollable]="'none'"
       (pageChange)="pageChange($event)"
       [navigable]="true"
+      [resizable]="true"
       kendoGridFocusable
     >
       <kendo-grid-column
